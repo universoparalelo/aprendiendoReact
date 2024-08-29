@@ -1,0 +1,9 @@
+body {
+    background: black;
+    font-family: system-ui;
+}
+
+#root {
+    width: fit-content;
+    margin: auto;
+}

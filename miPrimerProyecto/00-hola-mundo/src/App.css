@@ -1,0 +1,68 @@
+.tw-article{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin: auto;
+}
+
+.tw-img{
+    width: 45px;
+    border-radius: 24px;
+}
+
+.tw-aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tw-aside > strong{
+    font-weight: bold;
+}
+
+.tw-aside > span {
+    opacity: .8;
+}
+
+.tw-button{
+    padding: 8px 10px;
+    width: 100px;
+    border-radius: 16px;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.89);
+}
+
+.isFollowing{
+    width: 140px;
+}
+
+.tw-button:hover{
+    opacity: .8;
+}
+
+.tw-stopFollow{
+    display:none
+}
+
+.isFollowing:hover >.tw-following{
+    display:none
+}
+
+.isFollowing:hover{
+    background-color: rgba(97, 31, 31, 0.7);
+    color: rgb(255, 41, 41);
+    border: 1px solid red;
+    transition: .3s ease all;
+}
+
+.isFollowing:hover > .tw-stopFollow {
+    display:block
+}
+
+
