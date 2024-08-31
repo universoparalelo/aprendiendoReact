@@ -1,0 +1,127 @@
+.fs-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.fs-container{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* FoodCard styles */
+
+
+.fc-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+    border-radius: 16px;
+    padding: 10px;
+    height: 220px;
+}
+
+.fc-div:hover{
+    filter: drop-shadow(0 0 .2em #a05353aa);
+    cursor: pointer;
+}
+
+.fc-span{
+    font-size: 12px;
+    opacity: .7;
+}
+
+.fc-img{
+    width: 150px;
+    border-radius: 8px;
+}
+
+.fc-button{
+    padding: 7px 18px;
+}
+
+.fc-button:hover{
+    opacity: .8;
+    border: 1px solid rgb(66, 0, 0);
+}
+
+.is-added{
+    background-color: #333;
+}
+
+
+/* FoodCardPopUp styles */
+
+.pop-up-hidden{
+    display: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Color semi-transparente para el fondo */
+    backdrop-filter: blur(5px); /* Aplicar desenfoque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.popup-card {
+    height: 350px;
+    max-width: 250px;
+}
+
+.fcp-add-cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.fcp-button-m{
+    padding: 0px 15px;
+    background-color: #333;
+    font-size: 20px;
+}
+
+.fcp-span{
+    padding: 10px;
+}
+
+.fcp-close-button{
+    background-color: red;
+    padding: 4px 11px 9px;
+    align-self: flex-end;
+}
+
+.fcp-img{
+    width: 230px;
+    border-radius: 8px;
+}
+
+/* Cart styles */
+
+.cart-hidden{
+    display: none;
+}
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Color semi-transparente para el fondo */
+    backdrop-filter: blur(5px); /* Aplicar desenfoque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}

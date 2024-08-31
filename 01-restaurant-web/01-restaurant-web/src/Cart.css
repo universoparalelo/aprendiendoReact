@@ -1,0 +1,24 @@
+h3{
+    margin: 0;
+}
+
+.cart{
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.meal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ct-img{
+    width: 50px;
+}

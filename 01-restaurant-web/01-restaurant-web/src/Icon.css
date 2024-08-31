@@ -1,0 +1,19 @@
+.bt-icon{
+    padding: 0;
+    border-radius: 50%;
+}
+
+.ic-div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.ic-div:hover{
+    filter: drop-shadow(0 0 .2em #a05353aa);
+}
+
+.ic-img{
+    width: 40px;
+    border-radius: 50%;
+}

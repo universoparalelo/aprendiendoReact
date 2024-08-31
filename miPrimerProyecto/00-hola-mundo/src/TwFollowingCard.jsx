@@ -8,7 +8,7 @@ export function TwFollowingCard({children,userName, initialIsFollowing}){
     ? 'tw-button isFollowing'
     : 'tw-button'
 
-    const onHandle = ()=>{
+    const handleClick = ()=>{
         setIsFollowing(!isFollowing)
     }
 
@@ -24,7 +24,7 @@ export function TwFollowingCard({children,userName, initialIsFollowing}){
             </aside>
 
             <div>
-                <button className={buttonClassName} onClick={onHandle}>
+                <button className={buttonClassName} onClick={handleClick}>
                     <span className="tw-following">{text}</span>
                     <span className="tw-stopFollow">Dejar de seguir</span>
                 </button>
